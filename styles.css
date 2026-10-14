@@ -223,28 +223,12 @@ section {
   font-weight: 400;
 }
 
-/* Desplegables de Crítica (details / summary) */
-details.review-item {
+/* Tarjeta de Reseña en Crítica */
+article.review-item {
   background: var(--bg-secondary);
   border: 1px solid var(--border-color);
   padding: 2.25rem 2.25rem;
   margin-bottom: 2.5rem;
-  transition: all 0.2s ease;
-}
-
-details.review-item[open] {
-  border-color: rgba(196, 181, 142, 0.45);
-  background: rgba(21, 23, 30, 0.95);
-}
-
-details.review-item summary {
-  list-style: none;
-  cursor: pointer;
-  outline: none;
-}
-
-details.review-item summary::-webkit-details-marker {
-  display: none;
 }
 
 .review-summary-header {
@@ -291,8 +275,18 @@ details.review-item summary::-webkit-details-marker {
   hyphens: auto;
 }
 
-/* Botón interactivo de despliegue claro */
-.review-btn {
+/* Acordeón / Desplegable */
+details.review-accordion {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+details.review-accordion summary.review-btn {
+  list-style: none;
+  cursor: pointer;
+  outline: none;
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
@@ -308,29 +302,41 @@ details.review-item summary::-webkit-details-marker {
   user-select: none;
 }
 
-.review-btn:hover {
+details.review-accordion summary.review-btn::-webkit-details-marker {
+  display: none;
+}
+
+details.review-accordion summary.review-btn:hover {
   background: var(--accent);
   color: #0f1015;
 }
 
 .review-btn-icon {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1;
+  font-weight: 600;
 }
 
+.icon-minus,
 .btn-text-close {
   display: none;
 }
 
+.icon-plus,
+.btn-text-open {
+  display: inline;
+}
+
+details[open] .icon-plus,
 details[open] .btn-text-open {
   display: none;
 }
 
+details[open] .icon-minus,
 details[open] .btn-text-close {
   display: inline;
 }
 
-/* Texto completo de la reseña */
 .review-full-text {
   margin-top: 2rem;
   padding-top: 2rem;
@@ -394,7 +400,7 @@ footer {
     grid-template-columns: 1fr;
     gap: 0.25rem;
   }
-  details.review-item {
+  article.review-item {
     padding: 1.5rem 1.25rem;
   }
   .review-summary-header {
@@ -404,7 +410,7 @@ footer {
   .review-title {
     font-size: 1.5rem;
   }
-  .review-btn {
+  details.review-accordion summary.review-btn {
     width: 100%;
     justify-content: center;
   }
