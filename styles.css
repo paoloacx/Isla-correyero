@@ -415,3 +415,188 @@ footer {
     justify-content: center;
   }
 }
+/* Secciones de Libros en Poemas */
+.poem-book-section {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgba(196, 181, 142, 0.12);
+  padding-bottom: 2rem;
+}
+
+.poem-book-section:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.poem-book-header {
+  margin-bottom: 2rem;
+}
+
+.poem-book-title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.poem-book-year {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-style: normal;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  margin-left: 0.5rem;
+}
+
+/* Tarjeta individual de Poema */
+article.poem-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 2.25rem 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.poem-item-title {
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.02em;
+}
+
+/* Muestra previa de los primeros versos */
+.poem-preview-verse {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: #c5c1b8;
+  border-left: 2px solid var(--accent);
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+  white-space: pre-line;
+}
+
+/* Botón desplegable reutilizado */
+details.poem-accordion {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+details.poem-accordion summary.review-btn {
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-main);
+  background: rgba(196, 181, 142, 0.1);
+  border: 1px solid var(--accent);
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+details.poem-accordion summary.review-btn::-webkit-details-marker {
+  display: none;
+}
+
+details.poem-accordion summary.review-btn:hover {
+  background: var(--accent);
+  color: #0f1015;
+}
+
+/* Cuerpo completo del poema desplegado */
+.poem-full-content {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Versos en estrofas */
+.poem-stanza {
+  font-family: var(--font-serif);
+  font-size: 1.28rem;
+  line-height: 1.8;
+  color: var(--text-main);
+  white-space: pre-line;
+  margin-bottom: 1.6rem;
+  padding-left: 0.5rem;
+}
+
+.poem-stanza:last-child {
+  margin-bottom: 0;
+}
+
+/* Formato para prosa poética y epígrafes (como en el Manifiesto) */
+.poem-epigraph {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #b5b0a5;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.poem-epigraph span {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+  color: var(--accent);
+  font-style: normal;
+}
+
+.poem-prose-p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #d1d5db;
+  margin-bottom: 1.3rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.poem-author-note {
+  background: rgba(15, 16, 21, 0.6);
+  border-left: 2px solid var(--border-color);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: #9ca3af;
+  font-style: italic;
+  text-align: justify;
+}
+
+.poem-signature {
+  margin-top: 2rem;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--accent);
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  article.poem-item {
+    padding: 1.5rem 1.25rem;
+  }
+  .poem-item-title {
+    font-size: 1.45rem;
+  }
+  details.poem-accordion summary.review-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
