@@ -335,3 +335,109 @@ footer {
     padding: 1.75rem 1.25rem;
   }
 }
+/* Desplegables de Crítica (details / summary) */
+details.review-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 1.75rem 2rem;
+  margin-bottom: 2rem;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+details.review-item[open] {
+  border-color: rgba(196, 181, 142, 0.4);
+  background: rgba(21, 23, 30, 0.85);
+}
+
+details.review-item summary {
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+}
+
+details.review-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.review-summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.review-title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text-main);
+  letter-spacing: 0.02em;
+}
+
+.review-author {
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.review-book-target {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.review-excerpt {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #d1d5db;
+  border-left: 2px solid var(--accent);
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.review-toggle-prompt {
+  display: inline-block;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: 0.5rem;
+}
+
+details[open] .review-toggle-prompt {
+  display: none;
+}
+
+.review-full-text {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.review-full-text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #d1d5db;
+  margin-bottom: 1.4rem;
+}
+
+.review-full-text p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  details.review-item {
+    padding: 1.5rem 1.25rem;
+  }
+  .review-summary-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .review-title {
+    font-size: 1.4rem;
+  }
+}
