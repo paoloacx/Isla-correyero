@@ -21,15 +21,23 @@
     const firstSupportedLanguage = browserLanguages.find((language) => /^(en|es)(?:-|$)/i.test(language));
     const prefersEnglish = preferredLanguage === 'en' || /^en(?:-|$)/i.test(firstSupportedLanguage || '');
     if (prefersEnglish && englishPages[page]) {
-      window.location.replace(`en/${englishPages[page]}`);
+      window.location.replace(page === 'index.html' ? '/en/' : `/en/${englishPages[page]}`);
       return;
     }
   }
 
+  document.querySelectorAll('a[href]').forEach((link) => {
+    const destination = new URL(link.href, window.location.href);
+    if (destination.origin === window.location.origin && /\/index\.html$/.test(destination.pathname)) {
+      destination.pathname = destination.pathname.replace(/index\.html$/, '');
+      link.href = destination.href;
+    }
+  });
+
   const switchLink = document.querySelector('.language-switch');
   if (!switchLink) return;
 
-  const target = isEnglishPage ? `../${page}` : `en/${page}`;
+  const target = page === 'index.html' ? (isEnglishPage ? '/' : '/en/') : (isEnglishPage ? `/${page}` : `/en/${page}`);
   switchLink.href = target;
   switchLink.textContent = isEnglishPage ? 'ES' : 'EN';
   switchLink.lang = isEnglishPage ? 'es' : 'en';
