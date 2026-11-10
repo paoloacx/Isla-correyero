@@ -3,7 +3,8 @@
     'index.html': 'index.html',
     'biografia.html': 'biografia.html',
     'poemas.html': 'poemas.html',
-    'critica.html': 'critica.html'
+    'critica.html': 'critica.html',
+    'videos.html': 'videos.html'
   };
   const path = window.location.pathname;
   const isEnglishPage = /\/en\//.test(path);
@@ -33,6 +34,17 @@
       link.href = destination.href;
     }
   });
+
+  const navigation = document.querySelector('header nav ul');
+  if (navigation && !navigation.querySelector('a[href="videos.html"]')) {
+    const item = document.createElement('li');
+    const videoLink = document.createElement('a');
+    videoLink.href = 'videos.html';
+    videoLink.textContent = isEnglishPage ? 'Videos' : 'Vídeos';
+    if (page === 'videos.html') videoLink.className = 'active';
+    item.appendChild(videoLink);
+    navigation.appendChild(item);
+  }
 
   const switchLink = document.querySelector('.language-switch');
   if (!switchLink) return;
