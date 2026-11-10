@@ -1,0 +1,206 @@
+{
+  "pontes-crimenes": {
+    "title": "Crímenes (1993), de Isla Correyero: el ilimitado potencial de la poesía noir",
+    "file": "estudio-pontes-crimenes.pdf",
+    "source": "https://riubu.ubu.es/handle/10259/8992",
+    "pages": 10,
+    "printedFirst": 103,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/pontes-crimenes-01.txt"
+    ]
+  },
+  "liuzzo-malattia": {
+    "title": "Dire la malattia: due irruzioni poetiche nell’abisso",
+    "file": "estudio-liuzzo-malattia.pdf",
+    "source": "https://ojs.unito.it/index.php/artifara/article/view/6102/5500",
+    "pages": 16,
+    "printedFirst": 105,
+    "initial": 1,
+    "excerpt": false,
+    "parts": [
+      "pdf-data/liuzzo-malattia-01.txt",
+      "pdf-data/liuzzo-malattia-02.txt",
+      "pdf-data/liuzzo-malattia-03.txt"
+    ]
+  },
+  "mayhew-three-apologies": {
+    "title": "Three Apologies for Poetry",
+    "file": "estudio-mayhew-three-apologies.pdf",
+    "source": "https://library.oapen.org/bitstream/handle/20.500.12657/34642/389223.pdf?sequence=1",
+    "pages": 17,
+    "printedFirst": 32,
+    "initial": 12,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/mayhew-three-apologies-01.txt",
+      "pdf-data/mayhew-three-apologies-02.txt"
+    ]
+  },
+  "muro-scriptora-ludens": {
+    "title": "Miguel Ángel Muro · Scriptora Ludens (ensayo sobre Una mujer anda suelta de Tina Suárez Rojas)",
+    "file": "estudio-muro-scriptora-ludens.pdf",
+    "source": "https://papiro.unizar.es/ojs/index.php/tropelias/article/download/4665/3760/14402",
+    "pages": 14,
+    "printedFirst": 239,
+    "initial": 1,
+    "excerpt": false,
+    "parts": [
+      "pdf-data/muro-scriptora-ludens-01.txt",
+      "pdf-data/muro-scriptora-ludens-02.txt",
+      "pdf-data/muro-scriptora-ludens-03.txt"
+    ]
+  },
+  "sanchez-lenguaje-poetico": {
+    "title": "Francisco José Sánchez García · La construcción del lenguaje poético en la Generación del 80. A propósito de la riqueza léxica",
+    "file": "estudio-sanchez-lenguaje-poetico.pdf",
+    "source": "https://ojs.unito.it/index.php/artifara/article/view/4425",
+    "pages": 10,
+    "printedFirst": 93,
+    "initial": 1,
+    "excerpt": false,
+    "parts": [
+      "pdf-data/sanchez-lenguaje-poetico-01.txt",
+      "pdf-data/sanchez-lenguaje-poetico-02.txt",
+      "pdf-data/sanchez-lenguaje-poetico-03.txt",
+      "pdf-data/sanchez-lenguaje-poetico-04.txt"
+    ]
+  },
+  "diaz-garcia-casado": {
+    "title": "Jorge Díaz Martínez · Pablo García Casado: en las afueras de la poesía",
+    "file": "estudio-diaz-garcia-casado.pdf",
+    "source": "https://www.phi.ff.ukf.sk/wp-content/uploads/PHI-III-1.pdf",
+    "pages": 39,
+    "printedFirst": 13,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/diaz-garcia-casado-01.txt",
+      "pdf-data/diaz-garcia-casado-02.txt",
+      "pdf-data/diaz-garcia-casado-03.txt",
+      "pdf-data/diaz-garcia-casado-04.txt",
+      "pdf-data/diaz-garcia-casado-05.txt",
+      "pdf-data/diaz-garcia-casado-06.txt"
+    ]
+  },
+  "tajahuerce-compromiso": {
+    "title": "Ignacio Tajahuerce Sanz · El compromiso en la poesía española y su relación con la música popular (1975-2020)",
+    "file": "estudio-tajahuerce-compromiso.pdf",
+    "source": "https://zaguan.unizar.es/record/117305/files/TESIS-2022-106.pdf",
+    "pages": 3,
+    "printedFirst": 158,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/tajahuerce-compromiso-01.txt",
+      "pdf-data/tajahuerce-compromiso-02.txt"
+    ]
+  },
+  "alonso-girgado-lianas": {
+    "title": "Isla Correyero",
+    "file": "estudio-alonso-girgado-lianas.pdf",
+    "source": "https://www.dipujaen.es/manuelandujar/high.raw?attachment=0000346778.pdf&id=0000346778&name=00000001.original.pdf",
+    "pages": 1,
+    "printedFirst": 43,
+    "initial": 1,
+    "excerpt": false,
+    "parts": [
+      "pdf-data/alonso-girgado-lianas-01.txt",
+      "pdf-data/alonso-girgado-lianas-02.txt",
+      "pdf-data/alonso-girgado-lianas-03.txt",
+      "pdf-data/alonso-girgado-lianas-04.txt"
+    ]
+  },
+  "crespo-amor-tirano": {
+    "title": "Amor tirano",
+    "file": "estudio-crespo-amor-tirano.pdf",
+    "source": "https://cdn.vientosur.info/VScompletos/vs_0074.pdf",
+    "pages": 6,
+    "printedFirst": 97,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/crespo-amor-tirano-01.txt"
+    ]
+  },
+  "cenamor-poesias-poetas": {
+    "title": "Poesías y poetas",
+    "file": "estudio-cenamor-poesias-poetas.pdf",
+    "source": "https://www.accionenredmadrid.org/wp-content/uploads/2021/08/PA_110-111-enero2001.pdf",
+    "pages": 1,
+    "printedFirst": 76,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/cenamor-poesias-poetas-01.txt",
+      "pdf-data/cenamor-poesias-poetas-02.txt"
+    ]
+  },
+  "gaspar-compromiso-social": {
+    "title": "Sobre la posibilidad del compromiso social en la reciente poesía española",
+    "file": "estudio-gaspar-compromiso-social.pdf",
+    "source": "https://ifc.dpz.es/recursos/publicaciones/28/16/_ebook.pdf",
+    "pages": 4,
+    "printedFirst": 13,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/gaspar-compromiso-social-01.txt",
+      "pdf-data/gaspar-compromiso-social-02.txt",
+      "pdf-data/gaspar-compromiso-social-03.txt"
+    ]
+  },
+  "iravedra-radicales": {
+    "title": "Araceli Iravedra · Radicales, marginales y heterodoxos en la última poesía española (contra la poesía de la experiencia)",
+    "file": "estudio-iravedra-radicales.pdf",
+    "source": "https://www.memoria.fahce.unlp.edu.ar/trab_eventos/ev.39/ev.39.pdf",
+    "pages": 20,
+    "printedFirst": null,
+    "initial": 1,
+    "excerpt": false,
+    "parts": [
+      "pdf-data/iravedra-radicales-01.txt",
+      "pdf-data/iravedra-radicales-02.txt",
+      "pdf-data/iravedra-radicales-03.txt"
+    ]
+  },
+  "pena-eros-sexualidad": {
+    "title": "Francisco José Peña Rodríguez · La expresión del eros y la sexualidad en la poesía actual de mujeres (1994-2019)",
+    "file": "estudio-pena-eros-sexualidad.pdf",
+    "source": "https://dialnet.unirioja.es/descarga/articulo/7184409.pdf",
+    "pages": 24,
+    "printedFirst": null,
+    "initial": 1,
+    "excerpt": false,
+    "parts": [
+      "pdf-data/pena-eros-sexualidad-01.txt",
+      "pdf-data/pena-eros-sexualidad-02.txt"
+    ]
+  },
+  "viento-sur-diario": {
+    "title": "Diario de una enfermera",
+    "file": "estudio-viento-sur-diario.pdf",
+    "source": "https://cdn.vientosur.info/VScompletos/vs_0033.pdf",
+    "pages": 6,
+    "printedFirst": 111,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/viento-sur-diario-01.txt",
+      "pdf-data/viento-sur-diario-02.txt"
+    ]
+  },
+  "diccionario-escritoras": {
+    "title": "Diccionario de escritoras extremeñas · Entrada de Isla Correyero",
+    "file": "estudio-diccionario-escritoras.pdf",
+    "source": "https://cdiex.es/storage/files/2024_10/08EGRPhCLogqfGRGDhuFkdgyoE6qBy0GiYKQbth3.pdf",
+    "pages": 2,
+    "printedFirst": 63,
+    "initial": 1,
+    "excerpt": true,
+    "parts": [
+      "pdf-data/diccionario-escritoras-01.txt"
+    ]
+  }
+}
