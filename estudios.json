@@ -8,7 +8,7 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/pontes-crimenes-01.txt"
+      "pdf-data/pdf-data/pontes-crimenes-01.txt"
     ]
   },
   "liuzzo-malattia": {
@@ -20,9 +20,9 @@
     "initial": 1,
     "excerpt": false,
     "parts": [
-      "pdf-data/liuzzo-malattia-01.txt",
-      "pdf-data/liuzzo-malattia-02.txt",
-      "pdf-data/liuzzo-malattia-03.txt"
+      "pdf-data/pdf-data/liuzzo-malattia-01.txt",
+      "pdf-data/pdf-data/liuzzo-malattia-02.txt",
+      "pdf-data/pdf-data/liuzzo-malattia-03.txt"
     ]
   },
   "mayhew-three-apologies": {
@@ -34,8 +34,8 @@
     "initial": 12,
     "excerpt": true,
     "parts": [
-      "pdf-data/mayhew-three-apologies-01.txt",
-      "pdf-data/mayhew-three-apologies-02.txt"
+      "pdf-data/pdf-data/mayhew-three-apologies-01.txt",
+      "pdf-data/pdf-data/mayhew-three-apologies-02.txt"
     ]
   },
   "muro-scriptora-ludens": {
@@ -47,9 +47,9 @@
     "initial": 1,
     "excerpt": false,
     "parts": [
-      "pdf-data/muro-scriptora-ludens-01.txt",
-      "pdf-data/muro-scriptora-ludens-02.txt",
-      "pdf-data/muro-scriptora-ludens-03.txt"
+      "pdf-data/pdf-data/muro-scriptora-ludens-01.txt",
+      "pdf-data/pdf-data/muro-scriptora-ludens-02.txt",
+      "pdf-data/pdf-data/muro-scriptora-ludens-03.txt"
     ]
   },
   "sanchez-lenguaje-poetico": {
@@ -61,10 +61,10 @@
     "initial": 1,
     "excerpt": false,
     "parts": [
-      "pdf-data/sanchez-lenguaje-poetico-01.txt",
-      "pdf-data/sanchez-lenguaje-poetico-02.txt",
-      "pdf-data/sanchez-lenguaje-poetico-03.txt",
-      "pdf-data/sanchez-lenguaje-poetico-04.txt"
+      "pdf-data/pdf-data/sanchez-lenguaje-poetico-01.txt",
+      "pdf-data/pdf-data/sanchez-lenguaje-poetico-02.txt",
+      "pdf-data/pdf-data/sanchez-lenguaje-poetico-03.txt",
+      "pdf-data/pdf-data/sanchez-lenguaje-poetico-04.txt"
     ]
   },
   "diaz-garcia-casado": {
@@ -76,12 +76,12 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/diaz-garcia-casado-01.txt",
-      "pdf-data/diaz-garcia-casado-02.txt",
-      "pdf-data/diaz-garcia-casado-03.txt",
-      "pdf-data/diaz-garcia-casado-04.txt",
-      "pdf-data/diaz-garcia-casado-05.txt",
-      "pdf-data/diaz-garcia-casado-06.txt"
+      "pdf-data/pdf-data/diaz-garcia-casado-01.txt",
+      "pdf-data/pdf-data/diaz-garcia-casado-02.txt",
+      "pdf-data/pdf-data/diaz-garcia-casado-03.txt",
+      "pdf-data/pdf-data/diaz-garcia-casado-04.txt",
+      "pdf-data/pdf-data/diaz-garcia-casado-05.txt",
+      "pdf-data/pdf-data/diaz-garcia-casado-06.txt"
     ]
   },
   "tajahuerce-compromiso": {
@@ -93,8 +93,8 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/tajahuerce-compromiso-01.txt",
-      "pdf-data/tajahuerce-compromiso-02.txt"
+      "pdf-data/pdf-data/tajahuerce-compromiso-01.txt",
+      "pdf-data/pdf-data/tajahuerce-compromiso-02.txt"
     ]
   },
   "alonso-girgado-lianas": {
@@ -106,10 +106,10 @@
     "initial": 1,
     "excerpt": false,
     "parts": [
-      "pdf-data/alonso-girgado-lianas-01.txt",
-      "pdf-data/alonso-girgado-lianas-02.txt",
-      "pdf-data/alonso-girgado-lianas-03.txt",
-      "pdf-data/alonso-girgado-lianas-04.txt"
+      "pdf-data/pdf-data/alonso-girgado-lianas-01.txt",
+      "pdf-data/pdf-data/alonso-girgado-lianas-02.txt",
+      "pdf-data/pdf-data/alonso-girgado-lianas-03.txt",
+      "pdf-data/pdf-data/alonso-girgado-lianas-04.txt"
     ]
   },
   "crespo-amor-tirano": {
@@ -121,7 +121,7 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/crespo-amor-tirano-01.txt"
+      "pdf-data/pdf-data/crespo-amor-tirano-01.txt"
     ]
   },
   "cenamor-poesias-poetas": {
@@ -133,8 +133,8 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/cenamor-poesias-poetas-01.txt",
-      "pdf-data/cenamor-poesias-poetas-02.txt"
+      "pdf-data/pdf-data/cenamor-poesias-poetas-01.txt",
+      "pdf-data/pdf-data/cenamor-poesias-poetas-02.txt"
     ]
   },
   "gaspar-compromiso-social": {
@@ -146,9 +146,9 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/gaspar-compromiso-social-01.txt",
-      "pdf-data/gaspar-compromiso-social-02.txt",
-      "pdf-data/gaspar-compromiso-social-03.txt"
+      "pdf-data/pdf-data/gaspar-compromiso-social-01.txt",
+      "pdf-data/pdf-data/gaspar-compromiso-social-02.txt",
+      "pdf-data/pdf-data/gaspar-compromiso-social-03.txt"
     ]
   },
   "iravedra-radicales": {
@@ -160,9 +160,9 @@
     "initial": 1,
     "excerpt": false,
     "parts": [
-      "pdf-data/iravedra-radicales-01.txt",
-      "pdf-data/iravedra-radicales-02.txt",
-      "pdf-data/iravedra-radicales-03.txt"
+      "pdf-data/pdf-data/iravedra-radicales-01.txt",
+      "pdf-data/pdf-data/iravedra-radicales-02.txt",
+      "pdf-data/pdf-data/iravedra-radicales-03.txt"
     ]
   },
   "pena-eros-sexualidad": {
@@ -174,8 +174,8 @@
     "initial": 1,
     "excerpt": false,
     "parts": [
-      "pdf-data/pena-eros-sexualidad-01.txt",
-      "pdf-data/pena-eros-sexualidad-02.txt"
+      "pdf-data/pdf-data/pena-eros-sexualidad-01.txt",
+      "pdf-data/pdf-data/pena-eros-sexualidad-02.txt"
     ]
   },
   "viento-sur-diario": {
@@ -187,8 +187,8 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/viento-sur-diario-01.txt",
-      "pdf-data/viento-sur-diario-02.txt"
+      "pdf-data/pdf-data/viento-sur-diario-01.txt",
+      "pdf-data/pdf-data/viento-sur-diario-02.txt"
     ]
   },
   "diccionario-escritoras": {
@@ -200,7 +200,7 @@
     "initial": 1,
     "excerpt": true,
     "parts": [
-      "pdf-data/diccionario-escritoras-01.txt"
+      "pdf-data/pdf-data/diccionario-escritoras-01.txt"
     ]
   }
 }
