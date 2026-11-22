@@ -349,6 +349,40 @@ details.review-accordion summary.review-btn:hover {
   display: inline;
 }
 
+.poem-collapsible .poem-expand-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.paper-sheet.poem-accordion-sheet {
+  padding: 1.25rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.accordion-poem-title {
+  margin-right: auto;
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+.poem-expanded-body {
+  margin-top: 1.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid rgba(28, 27, 24, 0.12);
+}
+
+.poem-expanded-body .poem-verse-stanza {
+  margin-bottom: 0.8rem;
+}
+
+.poem-expanded-body .poem-verse-stanza:last-child {
+  margin-bottom: 0;
+}
+
 details[open] .icon-plus,
 details[open] .btn-text-open {
   display: none;
@@ -629,6 +663,9 @@ footer {
   }
   article.review-item {
     padding: 1.5rem 1.25rem;
+  }
+  .paper-sheet.poem-accordion-sheet {
+    padding: 1rem 1.1rem;
   }
   .review-summary-header {
     flex-direction: column;
