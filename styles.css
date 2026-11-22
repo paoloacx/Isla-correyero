@@ -764,3 +764,16 @@ details[open] > .poem-preview-summary .poem-preview-action {
   background: #1c1b18;
   color: #fbf9f5;
 }
+
+.poem-preview-action {
+  background: rgba(196, 181, 142, 0.1);
+  color: var(--paper-ink);
+  border-color: #1c1b18;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.poem-preview-summary:hover .poem-preview-action,
+.poem-preview-summary:focus-visible .poem-preview-action {
+  background: #1c1b18;
+  color: #fbf9f5;
+}
