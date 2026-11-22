@@ -784,3 +784,8 @@ details[open] > .poem-preview-summary .poem-preview-action {
   background: #1c1b18;
   color: #fbf9f5;
 }
+
+.poem-preview-summary .accordion-poem-title {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
