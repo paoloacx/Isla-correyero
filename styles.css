@@ -712,8 +712,15 @@ footer {
 
 .poem-preview-summary .accordion-poem-title {
   display: block;
-  margin: 0 0 0.75rem;
+  margin: 0 0 1.1rem;
   color: var(--paper-ink);
+  font-size: 1.85rem;
+  line-height: 1.1;
+}
+
+.poem-expanded-body {
+  margin-top: 2.25rem;
+  padding-top: 2.25rem;
 }
 
 .poem-preview-text {
